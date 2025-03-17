@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Model 1</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    model-viewer {
+      width: 400px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer 
+    src="P23_Photogrammetry_sculpted.glb" 
+    ios-src="P23_Photogrammetry_sculpted.usdz" 
+    alt="3D Model 1" 
+    auto-rotate 
+    camera-controls 
+    ar 
+    ar-modes="scene-viewer quick-look webxr">
+  </model-viewer>
+</body>
+</html>
