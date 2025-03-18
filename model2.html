@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Model 2</title>
+  <title>Visual Model</title>
   <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
   <style>
     body {
@@ -10,10 +10,13 @@
       align-items: center;
       height: 100vh;
       background-color: #f0f0f0;
+      margin: 0;
+      overflow: hidden;
     }
     model-viewer {
-      width: 400px;
-      height: 400px;
+      width: 80vw;
+      height: 80vh;
+      background-color: transparent;
     }
   </style>
 </head>
@@ -21,7 +24,7 @@
   <model-viewer 
     src="VisualModel.glb" 
     ios-src="VisualModel.usdz" 
-    alt="3D Model 2" 
+    alt="Visual Model" 
     auto-rotate 
     camera-controls 
     ar 
