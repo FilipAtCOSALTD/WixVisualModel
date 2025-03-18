@@ -6,6 +6,7 @@
   <style>
     body {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -13,8 +14,8 @@
       gap: 20px;
     }
     model-viewer {
-      width: 500px;
-      height: 500px;
+      width: 60vw; /* Increased size of models */
+      height: 60vh; /* Increased size of models */
       background-color: transparent;
       border-radius: 0;
       box-shadow: none;
@@ -38,7 +39,7 @@
   <model-viewer 
     src="VisualModel.glb" 
     ios-src="VisualModel.usdz" 
-    alt="3D Model 2" 
+    alt="VisualModel" 
     auto-rotate 
     camera-controls 
     ar 
